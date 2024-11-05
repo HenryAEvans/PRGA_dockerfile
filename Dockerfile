@@ -5,7 +5,7 @@ ENV HOME=/root
 RUN apt update
 RUN apt install -y git cmake bison wget zlib1g-dev libbz2-dev libncurses5-dev \
 	libffi-dev libreadline6-dev libssl-dev flex gcc-9 curl pkg-config \
-	g++-9 tcl-dev
+	g++-9 tcl-dev vim iverilog
 
 # Install pyenv
 RUN git clone https://github.com/pyenv/pyenv.git $HOME/.pyenv
